@@ -5,7 +5,15 @@ Interested in using Cyclops? Get the source code and related details from the pr
 
 # Quick Installation Guide
 For your convenience, a set of bash scripts are provided that will allw you to setup cyclops service in a vm (or a set of vms) quickly. Simple execute the scripts in this order -
-
+<pre><code>cd scripts
+chmod +x *
+./pre-req.sh
+./cyclopsudr.sh
+./cycloprc.sh
+./cyclopsbilling.sh
+./cyclopsdashboard.sh</code></pre>
+After you execute these scripts, your cyclops dashboard should be available at:
+<pre>http://your-vm-public-ip:8080/dashboard/app/</pre>
 
 ## License
 
